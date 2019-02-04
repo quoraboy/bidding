@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.s_signup">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:background="@color/colorAccent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/email1"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="100dp"
+            android:background="@color/colorPrimaryDark"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Enter E-mail"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="true"
+            android:textColorHint="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/pass1"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Password"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/colorPrimaryDark"
+            tools:ignore="RtlCompat" />
+
+        <Button
+            android:id="@+id/signup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="60dp"
+            android:background="@color/common_google_signin_btn_text_dark_focused"
+            android:text=" sign up"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            tools:ignore="RtlCompat"></Button>/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Or"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/login1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+
+            android:background="@color/common_google_signin_btn_text_dark_focused"
+            android:text="Login"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            tools:ignore="RtlCompat" />
+
+
+    </LinearLayout>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:id="@+id/prog"/>
+</RelativeLayout>

@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "764827877921-0ba1qrkosi19sq0cm62o4f0te7uo09qu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bullseye.bidding",
+            "certificate_hash": "151684d7ee924ca797e3851a7101601164efec4c"
+          }
+        },
+        {
           "client_id": "764827877921-4iv42k2020d78dd808849qveijh6a8k0.apps.googleusercontent.com",
           "client_type": 3
         }
